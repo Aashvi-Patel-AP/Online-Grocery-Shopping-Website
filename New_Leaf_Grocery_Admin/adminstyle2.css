@@ -1,0 +1,295 @@
+/* google poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --green:green;
+    --black:#130f40;
+    --light-color:#363434;
+    --box-shadow:0 .1rem 1rem rgba(0,0,0.1);
+    --border:.2rem solid rgba(0,0,0.1);
+    --outline:.1rem solid rgba(0,0,0.1);
+    --outline-hover:.2rem solid var(--black);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline:none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* transition: all .2s linear; */
+} 
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+body{
+    background: #eee;
+}
+.header{
+    position:fixed;
+    top:0; left:0; right:0;
+    display: flex; /* for mobile */
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: white;
+    box-shadow: var(--box-shadow);
+}
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.header .icons div{
+    border: 0px solid;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    color: black;
+    font-size: 2rem;
+    margin-right: .3rem;
+    text-align: center;
+    cursor: pointer;
+} 
+h3{
+    font-size: 2.5rem;
+}
+.sidebar{
+    position: fixed;
+    top: 9.5rem;
+    height: 50rem;
+    width: 20rem;
+    background-color: rgb(37, 36, 36);
+    box-shadow: var(--box-shadow);
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    z-index: 1;
+}
+.a{
+    position: relative;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+
+}
+.sidebar .a:hover{
+    color: var(--green);
+}
+li{
+    list-style-type: none;
+    padding: 2rem;
+}
+.arrow{
+    position: relative;
+    float: right;
+    margin-right: -1.5rem;
+    margin-top: .3rem;
+}
+.header .registration-form .btn-close{
+    font-size: 3rem;
+    background: none;
+    right: 1rem;
+    top: .1rem;
+    cursor: pointer;
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+}
+.header .registration-form .btn-close:hover{
+    /* background: var(--green); */
+    color: white;
+}
+.tableContainer{
+    width: 120rem;
+    position: fixed;
+    top: 10rem;
+    /* padding: 7rem; */
+    height: 50rem;
+    /* font-size: 2.5rem; */
+    left:-5rem;
+}
+.tableDetails{
+    /* position: relative; */
+    height: 20rem;
+    font-size: 1.5rem;
+}
+.center{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.dashboard-container{
+    position: fixed;
+    height: 50rem;
+    width: 130em;
+    /* background-color: blue; */
+    top: 13rem;
+    left: 22rem;
+    /* right: 5rem; */
+}
+.path-information{
+    position: relative;
+    display: block;
+    top: 9.5rem;
+    left: 22rem;
+    width: 130rem;
+    height: 3rem;
+    background: #cdcccc;
+}
+.path-information .path{
+    position: relative;
+    font-size: 1.8rem;
+    left: 3rem;
+    top: .5rem;
+}
+.add-product{
+    position: relative;
+    display: block;
+    top: 10rem;
+    left: 22rem;
+    width: 83%;
+    height: 4rem;
+    /* background: pink; */
+    background: #eee;
+}
+.btnn{
+    border: .2rem solid var(--black);
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+    width: 25rem;
+    height: 4rem;
+}
+.btnn1{
+    border: .2rem solid var(--black);
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+    width: 21rem;
+    height: 4rem;
+    margin-left: 30%;
+
+}
+.btnn:hover{
+    background: var(--green);
+    color: white;
+}
+.btnn1:hover{
+    background: var(--green);
+    color: white;
+}
+.addProduct{
+    position: relative;
+    top: 10rem;
+    left: 55rem;
+    align-items: center;
+}
+.addCategory{
+    position: relative;
+    top: 10rem;
+    left: 55rem;
+    align-items: center;
+}
+.addProducts-form{
+    font-size: 2rem;
+    border: 1px solid;
+    display: block;
+    padding: .5rem 3rem;
+    width: 60rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    background: white;
+}
+.addCategory-form{
+    font-size: 2rem;
+    border: 1px solid;
+    display: block;
+    padding: .5rem 3rem;
+    width: 60rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
+.addProducts-form h3{
+    padding: 0.7rem;
+    margin: 1rem;
+    top: .5rem;
+    width: 100%;
+    font-size: 2rem;
+    height: 4rem;
+    text-transform: uppercase;
+    color: white;
+    background:green;
+    text-align: center;
+}
+.addCategory-form h3{
+    padding: 0.7rem;
+    margin: 1rem;
+    top: .5rem;
+    width: 100%;
+    font-size: 2rem;
+    height: 4rem;
+    text-transform: uppercase;
+    color: white;
+    background:green;
+    text-align: center;
+}
+.addProducts-form .box{
+    width: 100%;
+    border: 0px solid;
+    margin: .3rem;
+    background: #eee;
+    border-radius: .5rem;
+    padding: .5rem;
+    color: var(--black);
+}
+.addCategory-form .box{
+    width: 100%;
+    border: 0px solid;
+    margin: .3rem;
+    background: white;
+    border-radius: .5rem;
+    padding: .5rem;
+    color: var(--black);
+}
+.addProducts-form .box1{
+    width: 100%;
+    border: 0px solid;
+    margin: .3rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    color: var(--black);
+}
+.addCategory-form .box1{
+    width: 100%;
+    border: 0px solid;
+    margin: .3rem;
+    border-radius: .5rem;
+    padding: .5rem;
+    color: var(--black);
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 350px;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
