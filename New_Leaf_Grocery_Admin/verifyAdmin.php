@@ -13,6 +13,6 @@ if($email=="admin@gmail.com" && $password=="admin")
 }
 else{
     echo "<script>alert('Enter valid username and password')</script>";
-    print'<script>window.location.assign("index1.php");</script>';
+    print'<script>window.location.assign("index.php");</script>';
 }
 ?>
