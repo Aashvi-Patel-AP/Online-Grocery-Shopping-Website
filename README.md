@@ -1,11 +1,11 @@
 # PHP_Project
 Online Grocery Shopping Website named as New_leaf_Grocery
 
-This is a online grocery shopping website which has two module
+This is an online grocery shopping website with two modules:
 
-1. For Administrators:- After successfully login admin has complete control over the platfoem. such as, Add, Update, Delete details of products as well as categories. Admin can also update status of order such as Pending, Processing, Out for delivery and Deliverd. Admin can also see Customer's details.
+1. Administrator Module: Once logged in, the administrator has complete control over the platform. They can add, update, and delete product and category details. Additionally, the administrator can update the status of orders, including pending, processing, out for delivery, and delivered. Furthermore, the administrator can access customer details.
 
-2. For Customer:- Customers can see products based on categories such as Fruits, Vegetables, etc. They can also add products in to cart. Then for checkout of the products they need to login first. If customer do not have account then they firstly need to register. After that,for payment there is only dumy interface which only shows the flow of interface. Also,status of order is displayed to the customers.  
+2. Customer Module: Customers can browse products based on categories such as fruits, vegetables, and more. They can add products to their cart and proceed to checkout. Prior to checkout, customers are required to log in. If they don't have an account, they must first register. For payment, a dummy interface is provided to demonstrate the flow, but no actual transactions are processed. The status of orders is displayed to the customers as well.  
 
 
 ## Installation 
