@@ -34,7 +34,7 @@ if(isset($_POST['submit']))
 
 }
 $sql ="INSERT INTO adproduct(`product_code`, `product_name`, `product_desc`, `product_img_name`,`price`, `product_qty`,`gi_index`,`c_id`) VALUES ('$p_code', '$p_name', '$p_desc', '$filename', '$p_price', '$p_qty','$gi_index','$c_id' );";
-if(mysqli_query($con,$sql) && move_uploaded_file($tempname,$folder) && move_uploaded_file($tempname,$folder1))
+if(mysqli_query($con,$sql) && move_uploaded_file($tempname,$folder))
   {
     // echo "<br>data added successfully";
     echo "<script>window.location.href='Products.php'</script>";
