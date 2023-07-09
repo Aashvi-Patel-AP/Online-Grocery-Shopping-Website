@@ -8,7 +8,7 @@
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <!-- custome CSS file link -->
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style10.css">
     <!-- custome validation javascript file -->
     <script src="validation.js"></script>
 </head>
